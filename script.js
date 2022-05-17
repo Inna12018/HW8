@@ -32,7 +32,7 @@ console.log(getElementById);
 const getParent = document.getElementById('optionsList').parentNode;
 console.log(getParent); 
 
-const getChildren = document.getElementById('optionsList').childNodes;
+const getChildren = document.getElementById('optionsList').children;
 console.log(getChildren);
 
 const elemByClass = document.querySelector("#testParagraph");
